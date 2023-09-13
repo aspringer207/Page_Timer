@@ -12,6 +12,6 @@ function beginStopwatch() {
     document.getElementById("minutes").innerHTML = m;
     document.getElementById("seconds").innerHTML = s;
     document.getElementById("milliseconds").innerHTML = ms;
-    console.log('stopwatchdata');
+    console.log(stopwatchdata);
 }
     
