@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald&amp;text=0123456789">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-vivid.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    
+    <style>        
+        #stopwatch {
+            font-family: 'Oswald', sans-serif;
+            }
+            
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 72
+        }
+        #fullcircle {
+            font-variation-settings: 
+            'FILL' 1,
+            "wght" 400,
+            'GRAD' 0,
+            'opsz' 72
+            ;
+        }
+        .digit {
+            border-width: 5px;
+            border-style: solid;
+            border-color: black;
+        }
+                
+    </style>
+
+</head>
+
+<body>
+    <div class="w3-jumbotron w3-jumbo w3-center w3-padding-large w3-container w3-light-gray w3-row" id="stopwatchWidget">
+
+        <span 
+            class="material-symbols-outlined">
+                circle
+        </span>
+        <span 
+            class="material-symbols-outlined">
+                clock_loader_10
+        </span>
+        <span 
+            class="material-symbols-outlined">
+                clock_loader_20
+        </span>
+        
+        <span class="material-symbols-outlined">
+                clock_loader_40
+        </span>
+        
+        <span 
+            class="material-symbols-outlined">
+                clock_loader_60
+        </span>
+    
+        <span 
+            class="material-symbols-outlined">
+                clock_loader_80
+        </span>
+        <span class="material-symbols-outlined">
+                clock_loader_90
+        </span>
+        <span 
+            class="material-symbols-outlined"
+            id="fullcircle">
+                circle
+        </span>
+    </div>
+    <div 
+        class="w3-padded-row w3-jumbotron w3-jumbo w3-center w3-container w3-half" 
+        id="stopwatch2">
+        <div 
+            class="w3-container w3-padded-row w3-center w3-panel w3-padding">
+            <div 
+                class="digit w3-light-gray w3-col w3-border-black w3-quarter w3-round-large w3-padding" 
+                id="hours">
+                    00
+                </div>
+            <div 
+                class="digit w3-light-gray w3-col w3-border-black w3-quarter w3-round-large w3-padding" 
+                id="minutes">
+                    00
+            </div>
+            <div 
+                class="digit w3-light-gray w3-col w3-border-black w3-quarter w3-round-large w3-padding" 
+                id="seconds">
+                    00
+            </div>
+            <div 
+                class="digit w3-light-gray w3-col w3-border-black w3-quarter w3-round-large w3-padding" 
+                id="milliseconds">
+                    00
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+    <div class="w3-row w3-vivid-greenish-blue w3-container">
+        <button 
+            class="w3-button w3-jumbo w3-padding-large" 
+            onclick="beginStopwatch()">
+                Start
+        </button>
+
+    </div>
+    <button class="w3-button w3-jumbo w3-padding-large">Stop</button>
+
+
+
+    <script src="stopwatch.js"></script>
+
+</body>
+
+</html>

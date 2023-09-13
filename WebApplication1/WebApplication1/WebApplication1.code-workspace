@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Page_Timer",
+		"powershell.cwd": "c:\\Users\\Andre.MSI\\Page_Timer"
+	}
+}
