@@ -10,7 +10,7 @@ for (let i = 0; i < 60; i++) {
    
 }
 console.log(text);
-document.write("demo.html");
+document.getElementById("demo");
 
 for (let i = 0; i < 60; i++) {
     text += i + "seconds <br>";
