@@ -59,7 +59,6 @@ let brightness_1 = {
     code_point: "e3a6",
 }
 for (i in clock_loader_icons) {
-    document.getElementById("stopwatchWidget");
-
+    document.getElementById("stopwatchWidget").style.display = "block"; 
 
 }
