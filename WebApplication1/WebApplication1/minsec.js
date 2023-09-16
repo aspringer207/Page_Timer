@@ -9,10 +9,10 @@ for (let i = 0; i < 60; i++) {
     seconds.push(secstring);
 }
 console.log(text);
-document.getElementById("demo");
+document.getElementById("demoa");
 
 for (let i = 0; i < 60; i++) {
     text += i + "seconds <br>";
   }
   console.log(text);
-  document.getElementById("demo");
+  document.getElementById("demob");
